@@ -23,7 +23,7 @@ public class AuthController {
     @PostMapping("/login")
     @Operation(
             summary = "verifica usuario y contraseña",
-            description = "Genera JWT cuando usuario y contraseña son correctos"
+            description = "Genera JWT cuando usuario y contraseña son correctos..."
     )
     public Response login(@RequestBody Request request) {
 
